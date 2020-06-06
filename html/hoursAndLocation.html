@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hours and Location - Maverick's Restaurant</title>
+  <link rel="icon" type="image/png" href="../images/mavericks logo.png" />
+  <!-- For apple devices -->
+  <link rel="apple-touch-icon" type="image/png" href="../images/mavericks logo.png" />
+  <meta name="description"
+    content="We are open from 12 PM to 2 AM on  Saturday -Thursday while from 2 PM to 2 AM on Friday. We are located in Gulshan e Hadeed Karachi. ">
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      .heading{
+        font-family: var(--main-font);
+      }
+      .paragraph{
+        font-family: var(--secondary-font);
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="container-fluid m-0" id="navbar" style="max-width: 100vw;">
+      <div class="container row mx-auto" >
+        <input type="checkbox" id="check" unchecked />
+        <label
+          for="check"
+          id="hamBurger"
+          class="d-inline-block"
+          onclick="toggleHamBurger(this)"
+        >
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+
+        <div class="col-lg-3 logo" style="z-index: 100; display: inline-block;">
+          <a href="../index.html"
+            ><img
+              src="../images/mavericks logo.png"
+              alt="logo"
+              width="200px"
+              height="70px"
+          /></a>
+        </div>
+        <div class="toggle-menu col-lg-9">
+          <ul>
+            <li>
+              <a href="../index.html" class="borderOnHover"
+                >Home</a
+              >
+            </li>
+            <li><a href="../html/menu.html" class="borderOnHover">Menu</a></li>
+            <li><a href="../html/hoursAndLocation.html" class="borderOnHover  myactive">Hours and Location</a></li>
+            <li><a href="../html/homeDelivery.html" class="borderOnHover">Home Delivery</a></li>
+          </ul>
+          <div class="p-3 space">
+            <div class="icon-hover">
+              <a href="https://www.facebook.com/mavericksfood/" class="fa fa-facebook p-2 icon"></a>
+            </div>
+           
+            <span style="color: white;">Follow Us!</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <!--banner-->
+  <div class="banner" id="top">
+    <div class="banner-text">
+      <h1 class="mainHeading">Hours and</h1> <h1 class="mainHeading">Location</h1>
+     
+    </div>
+  </div>
+  <!---->
+
+    <!--location-->
+    <div class="container mx-auto pt-5">
+        <div 
+            style="display: flex; flex-direction: column; justify-content: space-around;  text-align: left; ">
+            <div>
+                <h1 class="heading">Location</h1>
+                <p class="paragraph">Shop # 3 C-319 Gulshan e Hadeed Phase 1 Extention, Bin Qasim Town, Karachi, Karachi
+                    City, Sindh</p>
+            </div>
+            <div>
+                <h1 class="heading">Hours</h1>
+                <p class="paragraph">Saturday-Thursday: 12PM-2AM</p>
+                <p class="paragraph">Friday: 2PM-2AM
+            </div>
+            </p>
+            <div>
+                <h1 class="heading">Contact</h1>
+                <p class="paragraph">03331234567</p>
+                <p class="paragraph">02134711234</p>
+            </div>
+        </div>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14480.127207812586!2d67.35053184603271!3d24.862763403119548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x478cf15128f23a18!2zTWF2ZXJpY2vigJlz!5e0!3m2!1sen!2s!4v1590098774459!5m2!1sen!2s"
+                width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe></div></div>
+    
+      <!--footer-->
+      <div class="container-fluid text-white  mt-3"  style="background-color: rgb(0, 0, 0);">
+          <div class="to-the-top">
+            <a href="#top"><i class="fa fa-arrow-up"></i></a>
+          </div>
+        <div class="container row pb-5 pt-3" style="margin: 0 auto;">
+          <div class="col-md-3 mb-3 footer-element">
+            <h5>Useful Links</h5>
+      
+            <a href="../index.html" class="useful-link">Home</a>
+            <a href="../html/menu.html" class="useful-link">Menu</a>
+            <a href="../html/homeDelivery.html" class="useful-link">Home Delivery</a>
+            <a href="../html/hoursAndLocation.html" class="useful-link">Hours</a>
+            <a href="../html/hoursAndLocation.html" class="useful-link">Location</a>
+          </div>
+          <div class="col-md-5 mb-3 footer-element">
+            <p>
+              <i class="fa fa-map-marker"></i>
+              Shop # 3 C-319 Gulshan e Hadeed Phase 1 Extention, Bin Qasim Town,
+              Karachi, Karachi City, Sindh
+              <br />
+              <i class="fa fa-phone"></i>
+              CELL: 03331234567 <br />
+              <i class="fa fa-envelope"></i>
+              ----------------@---.com
+            </p>
+          </div>
+      
+          <div class="col-md-4 left">
+            <h5>Connect With Us</h5>
+      
+            <div class="d-lg-flex justify-content-center">
+              <a href="https://www.facebook.com/mavericksfood/" class="fa fa-facebook footersm" target="_blank"></a>
+      
+         
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid py-2" style="background-color: rgb(27, 27, 27);">
+        <div class="container">
+          <p style="color: white;">copyright &copy; 2020 Maverisk's</p>
+        </div>
+      </div>
+      <!---->
+    <script src="../js/script.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+  </body>
+</html>

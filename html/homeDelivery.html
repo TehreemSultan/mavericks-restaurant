@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Delivery - Maverick's Restaurant</title>
+    <link rel="icon" type="image/png" href="../images/mavericks logo.png" />
+    <!-- For apple devices -->
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="../images/mavericks logo.png"
+    />
+    <meta
+      name="description"
+      content="We deliver food at your doorstep just give us a call at 03331234567 or 02134711234 "
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      .heading {
+        font-family: var(--main-font);
+      }
+
+      .paragraph {
+        font-family: var(--secondary-font);
+      }
+      .dilivery-para {
+        font-family: var(--secondary-font);
+        padding: 10px 3px;
+        text-align: justify;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="container-fluid m-0" id="navbar" style="max-width: 100vw;">
+      <div class="container row mx-auto">
+        <input type="checkbox" id="check" unchecked />
+        <label
+          for="check"
+          id="hamBurger"
+          class="d-inline-block"
+          onclick="toggleHamBurger(this)"
+        >
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+
+        <div class="col-lg-3 logo" style="z-index: 100; display: inline-block;">
+          <a href="../index.html"
+            ><img
+              src="../images/mavericks logo.png"
+              alt="logo"
+              width="200px"
+              height="70px"
+          /></a>
+        </div>
+        <div class="toggle-menu col-lg-9">
+          <ul>
+            <li>
+              <a href="../index.html" class="borderOnHover">Home</a>
+            </li>
+            <li><a href="../html/menu.html" class="borderOnHover">Menu</a></li>
+            <li>
+              <a href="../html/hoursAndLocation.html" class="borderOnHover"
+                >Hours and Location</a
+              >
+            </li>
+            <li>
+              <a href="../html/homeDelivery.html" class="borderOnHover myactive"
+                >Home Delivery</a
+              >
+            </li>
+          </ul>
+          <div class="p-3 space">
+            <div class="icon-hover">
+              <a
+                href="https://www.facebook.com/mavericksfood/"
+                class="fa fa-facebook p-2 icon"
+              ></a>
+            </div>
+
+            <span style="color: white;">Follow Us!</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--banner-->
+    <div class="banner" id="top">
+      <div class="banner-text">
+        <span class="mainHeading">Home Dilivery</span>
+      </div>
+    </div>
+    <!---->
+
+    <div class="container mx-auto w-md-50 my-5">
+      <h1 style="font-family: var(--main-font); padding: 10px 5px 0px 5px;">
+        Your Favourite Food is Just a Call Away
+      </h1>
+      <div
+        style="
+          width: 100%;
+          background-color: yellow;
+          height: 2px;
+          margin: 0px auto;
+        "
+      ></div>
+      <p class="dilivery-para">
+        Want to eat your favourite fast food dish but don't wanna go out
+        Maverick's is here for you. We will deliver fresh and delicious fast
+        food at your doorstep. You just have to give us a call.
+      </p>
+      <p class="dilivery-para">
+        Call us at <strong>03331234567</strong> or
+        <strong>02134711234</strong> to place your order.
+      </p>
+      <dl style="text-align: left;">
+        <dt>Dilivery Availability :</dt>
+        <dd>----------</dd>
+        <dt>Dilivery Hours :</dt>
+        <dd>--------</dd>
+        <dt>Dilivery Charges:</dt>
+        <dd>---------</dd>
+      </dl>
+    </div>
+
+    <!--footer-->
+    <div
+      class="container-fluid text-white mt-3"
+      style="background-color: rgb(0, 0, 0);"
+    >
+      <div class="to-the-top">
+        <a href="#top"><i class="fa fa-arrow-up"></i></a>
+      </div>
+      <div class="container row pb-5 pt-3" style="margin: 0 auto;">
+        <div class="col-md-3 mb-3 footer-element">
+          <h5>Useful Links</h5>
+
+          <a href="../html/index.html" class="useful-link">Home</a>
+          <a href="../html/menu.html" class="useful-link">Menu</a>
+          <a href="../html/homeDelivery.html" class="useful-link"
+            >Home Delivery</a
+          >
+          <a href="../html/hoursAndLocation.html" class="useful-link">Hours</a>
+          <a href="../html/hoursAndLocation.html" class="useful-link"
+            >Location</a
+          >
+        </div>
+        <div class="col-md-5 mb-3 footer-element">
+          <p>
+            <i class="fa fa-map-marker"></i>
+            Shop # 3 C-319 Gulshan e Hadeed Phase 1 Extention, Bin Qasim Town,
+            Karachi, Karachi City, Sindh
+            <br />
+            <i class="fa fa-phone"></i>
+            CELL: 03331234567 <br />
+            <i class="fa fa-envelope"></i>
+            ----------------@---.com
+          </p>
+        </div>
+
+        <div class="col-md-4 left">
+          <h5>Connect With Us</h5>
+
+          <div class="d-lg-flex justify-content-center">
+            <a
+              href="https://www.facebook.com/mavericksfood/"
+              class="fa fa-facebook footersm"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid py-2"
+      style="background-color: rgb(27, 27, 27);"
+    >
+      <div class="container">
+        <p style="color: white;">copyright &copy; 2020 Maverisk's</p>
+      </div>
+    </div>
+    <!---->
+    <script src="../js/script.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
